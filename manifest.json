@@ -1,0 +1,10 @@
+{
+  "manifest_version": 3,
+  "name": "Spell Checker Extension",
+  "version": "1.0",
+  "description": "Checks for misspelled words on a webpage.",
+  "permissions": ["activeTab","scripting"],
+  "action": {
+    "default_popup": "popup.html"
+  }
+}
